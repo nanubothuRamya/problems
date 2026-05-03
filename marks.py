@@ -1,0 +1,12 @@
+maths=['raj','ramya','mira']
+political=['raj','sathya','sravanthi']
+social=['raj','bala','sathya']
+m=set(maths)
+p=set(political)
+s=set(social)
+one=list(m&p&s)
+print(one)
+a=list(m&s)
+print(a)
+b=list(p&s)
+print(b)
